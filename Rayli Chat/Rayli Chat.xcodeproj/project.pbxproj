@@ -12,6 +12,7 @@
 		FA2492E828D6655600018B34 /* LexendDeca-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA2492E528D6655600018B34 /* LexendDeca-SemiBold.ttf */; };
 		FA2492EB28D665AC00018B34 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2492EA28D665AC00018B34 /* Fonts.swift */; };
 		FA80CDA428D669E40028D110 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA80CDA328D669E40028D110 /* CustomTabBar.swift */; };
+		FA80CDA628D66B590028D110 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA80CDA528D66B590028D110 /* TabButton.swift */; };
 		FAF94BB828D65C8800EAE364 /* Rayli_ChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF94BB728D65C8800EAE364 /* Rayli_ChatApp.swift */; };
 		FAF94BBA28D65C8800EAE364 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF94BB928D65C8800EAE364 /* RootView.swift */; };
 		FAF94BBC28D65C8900EAE364 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF94BBB28D65C8900EAE364 /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 		FA2492EA28D665AC00018B34 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		FA80CDA128D6680E0028D110 /* Rayli-Chat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Rayli-Chat-Info.plist"; sourceTree = SOURCE_ROOT; };
 		FA80CDA328D669E40028D110 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		FA80CDA528D66B590028D110 /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
 		FAF94BB428D65C8800EAE364 /* Rayli Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rayli Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF94BB728D65C8800EAE364 /* Rayli_ChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rayli_ChatApp.swift; sourceTree = "<group>"; };
 		FAF94BB928D65C8800EAE364 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				FA80CDA328D669E40028D110 /* CustomTabBar.swift */,
+				FA80CDA528D66B590028D110 /* TabButton.swift */,
 			);
 			path = "Custom Tab Bar";
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 				FA80CDA428D669E40028D110 /* CustomTabBar.swift in Sources */,
 				FAF94BBA28D65C8800EAE364 /* RootView.swift in Sources */,
 				FA2492EB28D665AC00018B34 /* Fonts.swift in Sources */,
+				FA80CDA628D66B590028D110 /* TabButton.swift in Sources */,
 				FAF94BB828D65C8800EAE364 /* Rayli_ChatApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
