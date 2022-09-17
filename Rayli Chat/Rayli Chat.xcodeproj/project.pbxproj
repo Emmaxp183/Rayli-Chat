@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA2492E628D6655600018B34 /* LexendDeca-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA2492E328D6655600018B34 /* LexendDeca-Bold.ttf */; };
+		FA2492E728D6655600018B34 /* LexendDeca-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA2492E428D6655600018B34 /* LexendDeca-Regular.ttf */; };
+		FA2492E828D6655600018B34 /* LexendDeca-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA2492E528D6655600018B34 /* LexendDeca-SemiBold.ttf */; };
+		FA2492EB28D665AC00018B34 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2492EA28D665AC00018B34 /* Fonts.swift */; };
+		FA80CDA428D669E40028D110 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA80CDA328D669E40028D110 /* CustomTabBar.swift */; };
+		FAF94BB828D65C8800EAE364 /* Rayli_ChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF94BB728D65C8800EAE364 /* Rayli_ChatApp.swift */; };
+		FAF94BBA28D65C8800EAE364 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF94BB928D65C8800EAE364 /* RootView.swift */; };
+		FAF94BBC28D65C8900EAE364 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF94BBB28D65C8900EAE364 /* Assets.xcassets */; };
+		FAF94BBF28D65C8900EAE364 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF94BBE28D65C8900EAE364 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA2492E328D6655600018B34 /* LexendDeca-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LexendDeca-Bold.ttf"; sourceTree = "<group>"; };
+		FA2492E428D6655600018B34 /* LexendDeca-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LexendDeca-Regular.ttf"; sourceTree = "<group>"; };
+		FA2492E528D6655600018B34 /* LexendDeca-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LexendDeca-SemiBold.ttf"; sourceTree = "<group>"; };
+		FA2492EA28D665AC00018B34 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		FA80CDA128D6680E0028D110 /* Rayli-Chat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Rayli-Chat-Info.plist"; sourceTree = SOURCE_ROOT; };
+		FA80CDA328D669E40028D110 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		FAF94BB428D65C8800EAE364 /* Rayli Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rayli Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF94BB728D65C8800EAE364 /* Rayli_ChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rayli_ChatApp.swift; sourceTree = "<group>"; };
+		FAF94BB928D65C8800EAE364 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		FAF94BBB28D65C8900EAE364 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAF94BBE28D65C8900EAE364 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAF94BB128D65C8800EAE364 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA2492E228D6655600018B34 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FA2492E328D6655600018B34 /* LexendDeca-Bold.ttf */,
+				FA2492E428D6655600018B34 /* LexendDeca-Regular.ttf */,
+				FA2492E528D6655600018B34 /* LexendDeca-SemiBold.ttf */,
+			);
+			name = Fonts;
+			path = "../../../The Chat App/Module 02/Lesson 04/swiftui-chat/swiftui-chat/Fonts";
+			sourceTree = "<group>";
+		};
+		FA2492E928D6657900018B34 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FA2492EA28D665AC00018B34 /* Fonts.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		FA2492EC28D665D800018B34 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FAF94BB928D65C8800EAE364 /* RootView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FA2492ED28D6660200018B34 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FA2492EE28D6661F00018B34 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FA80CDA228D669A80028D110 /* Custom Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				FA80CDA328D669E40028D110 /* CustomTabBar.swift */,
+			);
+			path = "Custom Tab Bar";
+			sourceTree = "<group>";
+		};
+		FAF94BAB28D65C8800EAE364 = {
+			isa = PBXGroup;
+			children = (
+				FAF94BB628D65C8800EAE364 /* Rayli Chat */,
+				FAF94BB528D65C8800EAE364 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAF94BB528D65C8800EAE364 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAF94BB428D65C8800EAE364 /* Rayli Chat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAF94BB628D65C8800EAE364 /* Rayli Chat */ = {
+			isa = PBXGroup;
+			children = (
+				FA80CDA228D669A80028D110 /* Custom Tab Bar */,
+				FA80CDA128D6680E0028D110 /* Rayli-Chat-Info.plist */,
+				FA2492EE28D6661F00018B34 /* Models */,
+				FA2492ED28D6660200018B34 /* ViewModels */,
+				FA2492EC28D665D800018B34 /* Views */,
+				FA2492E928D6657900018B34 /* Helpers */,
+				FA2492E228D6655600018B34 /* Fonts */,
+				FAF94BB728D65C8800EAE364 /* Rayli_ChatApp.swift */,
+				FAF94BBB28D65C8900EAE364 /* Assets.xcassets */,
+				FAF94BBD28D65C8900EAE364 /* Preview Content */,
+			);
+			path = "Rayli Chat";
+			sourceTree = "<group>";
+		};
+		FAF94BBD28D65C8900EAE364 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FAF94BBE28D65C8900EAE364 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAF94BB328D65C8800EAE364 /* Rayli Chat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF94BC228D65C8900EAE364 /* Build configuration list for PBXNativeTarget "Rayli Chat" */;
+			buildPhases = (
+				FAF94BB028D65C8800EAE364 /* Sources */,
+				FAF94BB128D65C8800EAE364 /* Frameworks */,
+				FAF94BB228D65C8800EAE364 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rayli Chat";
+			productName = "Rayli Chat";
+			productReference = FAF94BB428D65C8800EAE364 /* Rayli Chat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAF94BAC28D65C8800EAE364 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					FAF94BB328D65C8800EAE364 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = FAF94BAF28D65C8800EAE364 /* Build configuration list for PBXProject "Rayli Chat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAF94BAB28D65C8800EAE364;
+			productRefGroup = FAF94BB528D65C8800EAE364 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAF94BB328D65C8800EAE364 /* Rayli Chat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAF94BB228D65C8800EAE364 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF94BBF28D65C8900EAE364 /* Preview Assets.xcassets in Resources */,
+				FAF94BBC28D65C8900EAE364 /* Assets.xcassets in Resources */,
+				FA2492E828D6655600018B34 /* LexendDeca-SemiBold.ttf in Resources */,
+				FA2492E728D6655600018B34 /* LexendDeca-Regular.ttf in Resources */,
+				FA2492E628D6655600018B34 /* LexendDeca-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAF94BB028D65C8800EAE364 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA80CDA428D669E40028D110 /* CustomTabBar.swift in Sources */,
+				FAF94BBA28D65C8800EAE364 /* RootView.swift in Sources */,
+				FA2492EB28D665AC00018B34 /* Fonts.swift in Sources */,
+				FAF94BB828D65C8800EAE364 /* Rayli_ChatApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FAF94BC028D65C8900EAE364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAF94BC128D65C8900EAE364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAF94BC328D65C8900EAE364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Rayli Chat/Preview Content\"";
+				DEVELOPMENT_TEAM = W35P6LHCZU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Rayli-Chat-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.immaxp.Rayli-Chat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAF94BC428D65C8900EAE364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Rayli Chat/Preview Content\"";
+				DEVELOPMENT_TEAM = W35P6LHCZU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Rayli-Chat-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.immaxp.Rayli-Chat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAF94BAF28D65C8800EAE364 /* Build configuration list for PBXProject "Rayli Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF94BC028D65C8900EAE364 /* Debug */,
+				FAF94BC128D65C8900EAE364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF94BC228D65C8900EAE364 /* Build configuration list for PBXNativeTarget "Rayli Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF94BC328D65C8900EAE364 /* Debug */,
+				FAF94BC428D65C8900EAE364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAF94BAC28D65C8800EAE364 /* Project object */;
+}
